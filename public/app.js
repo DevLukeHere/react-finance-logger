@@ -1,9 +1,9 @@
 import { Invoice } from "./classes/Invoice.js";
-import { ListTemplate } from "./classes/ListTemplate";
+import { ListTemplate } from "./classes/ListTemplate.js";
 import { Payment } from "./classes/Payment.js";
 const form = document.querySelector(".new-item-form");
 const type = document.querySelector("#type");
-const tofrom = document.querySelector("#toform");
+const tofrom = document.querySelector("#tofrom");
 const details = document.querySelector("#details");
 const amount = document.querySelector("#amount");
 // list template instance
